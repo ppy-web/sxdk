@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" /> -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"> 
+    <meta name="format-detection" content="telephone=yes" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <script type="text/javascript">
+      // 高德地图秘钥，必须在加载load.js文件之前
+      window._AMapSecurityConfig = {
+        securityJsCode: '' //329ca48147074b2b5f5a0e9d0400c99e
+      }
+    </script>
+</head>
+
+<body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

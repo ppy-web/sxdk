@@ -1,0 +1,72 @@
+{
+  "name": "sxsx-h5",
+  "version": "0.0.0",
+  "description": "校外实习健康打卡",
+  "author": "李德永 <lideyong@newcapec.net>",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.26.1",
+    "core-js": "^3.6.5",
+    "dayjs": "^1.11.0",
+    "js-cookie": "^3.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "vant": "^2.12.45",
+    "vue": "^2.6.11",
+    "vue-amap": "^0.5.10",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "copy-webpack-plugin": "^4.6.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "postcss": "^8.4.12",
+    "postcss-focus": "^5.0.1",
+    "postcss-px-to-viewport-8-plugin": "^1.1.3",
+    "prettier": "2.6.1",
+    "vconsole": "^3.14.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.newcapec.cn:6022/02-newcapec/vocationalSchool/zz-monorepo.git"
+  }
+}
