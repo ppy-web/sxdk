@@ -9,7 +9,7 @@ const headers = {
 
 module.exports = {
   outputDir: "dist",
-  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/sxdk" : "/",
   lintOnSave: false,
   devServer: {
     host: "0.0.0.0",
